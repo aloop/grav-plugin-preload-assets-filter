@@ -72,7 +72,7 @@ class PreloadAssetsFilterPlugin extends Plugin
     public function preloadUrl(string $url, string $as = "image", bool $crossorigin = false)
     {
         if (!empty($url)) {
-            $this->http_headers[] = $this->formatHeaderString($url, $as, $crossorigin);;
+            $this->http_headers[] = $this->formatHeaderString($url, $as, $crossorigin);
         }
 
         return $url;

@@ -1,5 +1,5 @@
 name: Preload Assets Filter
-version: 0.1.0
+version: 0.1.1
 description: Adds twig filters that generate and set link preload http headers
 icon: plug
 author:
