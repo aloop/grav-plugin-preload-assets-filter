@@ -1,0 +1,26 @@
+name: Preload Assets Filter
+version: 0.1.0
+description: Adds twig filters that generate and set link preload http headers
+icon: plug
+author:
+  name: Anthony Loop
+  email: anthony@anthonyloop.com
+  url: https://www.anthonyloop.com
+homepage: https://github.com/aloop/grav-plugin-preload-assets-filter
+keywords: grav, plugin, http2, push, preload
+bugs: https://github.com/aloop/grav-plugin-preload-assets-filter/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
